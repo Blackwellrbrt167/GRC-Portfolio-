@@ -1,1 +1,2 @@
-# upload/extend files
+Risk ID,Date Logged,Source,Risk Description,Likelihood,Impact,Inherent Risk Rating,Existing Controls,Gaps Identified,Recommended Mitigation,Residual Risk Rating,Owner,Status
+R-2025-001,2025-09-11,CVE-2025-22224,"Sandbox escape in VMware Workstation/Fusion allows guest-to-host code execution, compromising virtualization boundaries.",Medium,High,Medium-High,"Virtualization isolation policies; HIDS; vendor advisories","Unsupported VMware versions; no asset inventory","Patch VMware; retire unsupported builds; update asset inventory; enforce quarterly patch cycles",Low-Medium,IT Infrastructure Manager,Open - In remediation
